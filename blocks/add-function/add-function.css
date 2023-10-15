@@ -1,0 +1,9 @@
+.add-function{
+    margin-top: 6px;
+}
+@media (max-width: 670px) {
+    .add-function{
+            margin: 0;
+            margin-bottom: 8px;
+        }
+}

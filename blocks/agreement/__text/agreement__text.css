@@ -1,0 +1,8 @@
+.agreement__text{
+    margin-left: 24px;
+    font-size: 13px;
+    line-height: 16px;
+}
+.agreement__text span{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}

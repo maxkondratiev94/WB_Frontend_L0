@@ -1,0 +1,8 @@
+.price__price {
+    position: relative;
+}
+@media (max-width: 530px) {
+    .price__price{
+            font-size: 13px;
+        }
+}

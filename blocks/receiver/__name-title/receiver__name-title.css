@@ -1,0 +1,7 @@
+.receiver__name-title{
+    visibility: hidden;
+    opacity: 0;
+}
+.receiver__name-title{
+    display: block;
+}

@@ -1,0 +1,8 @@
+.title__spoiler{
+    display: flex;
+    flex: 1 1 auto;
+}
+.title__spoiler.active .title__item{
+    top: -10px;
+    transform: rotate(180deg);
+}

@@ -1,0 +1,21 @@
+.icon_1s{
+    margin: 0px 36px 0px 0px;
+    position: absolute;
+    top: 0;
+}
+.icon_1s:hover.red2 {
+    opacity: 1;
+}
+.icon_1s:hover {
+    opacity: 0;
+}
+@media (max-width: 670px) {
+    .icon_1s.ic1_margin{
+            margin-right: 47px;
+        }
+}
+@media (max-width: 670px) {
+    .icon_1s{
+            margin-right: 36px;
+        }
+}

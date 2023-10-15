@@ -1,0 +1,8 @@
+.total__buttom{
+    display: flex;
+    justify-content: center;
+    padding: 7.5px 32px 12.5px;
+    background: #CB11AB;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}

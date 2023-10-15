@@ -1,0 +1,16 @@
+.info-title_mouse-text {
+    margin-top: 5px;
+    display: block;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15), 0px 0px 1px rgba(0, 0, 0, 0.3);
+    padding: 10px 16px 14px 16px;
+    max-width: 288px;
+    /* margin-left: -5%; */
+    font-size: 13px;
+    line-height: 16px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    /* left: 70%; */
+}

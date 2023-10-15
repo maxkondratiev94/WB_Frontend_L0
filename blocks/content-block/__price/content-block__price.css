@@ -1,0 +1,12 @@
+.content-block__price {}
+@media (max-width: 670px) {
+    .content-block__price{
+            /* display: none; */
+            position: absolute;
+            margin-top: 0px;
+            margin-left: 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+}

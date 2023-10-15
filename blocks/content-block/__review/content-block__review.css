@@ -1,0 +1,10 @@
+.content-block__review {
+    font-size: 13px;
+    line-height: 16px;
+}
+@media (max-width: 670px) {
+    .content-block__review{
+            margin-left: 100px;
+            margin-top: -80px;
+        }
+}

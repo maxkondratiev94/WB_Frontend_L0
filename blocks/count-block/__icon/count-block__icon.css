@@ -1,0 +1,14 @@
+.count-block__icon {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+@media (max-width: 670px) {
+    .count-block__icon{
+            /* margin-left: 20px; */
+            margin-top: -20px;
+            margin-left: auto;
+            margin-right: 60px;
+        }
+}

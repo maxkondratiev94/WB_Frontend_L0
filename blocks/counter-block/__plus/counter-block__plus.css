@@ -1,0 +1,48 @@
+.counter-block__plus.act_p {
+    flex: 0 1 30%;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+.counter-block__plus.no_act_p {
+    flex: 0 1 30%;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.counter-block__plus.act_p-2 {
+    flex: 0 1 30%;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+.counter-block__plus.no_act_p-2 {
+    flex: 0 1 30%;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.counter-block__plus.act-p3 {
+    flex: 0 1 30%;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+.counter-block__plus.no-act-p3 {
+    flex: 0 1 30%;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}

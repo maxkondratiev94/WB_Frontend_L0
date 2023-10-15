@@ -1,0 +1,11 @@
+.receiver__name {
+    margin-right: 24px;
+    width: 100%;
+    /* flex: 0 1 338px; */
+}
+@media (max-width: 670px) {
+    .receiver__name{
+            flex: 0;
+            margin-bottom: 18px;
+        }
+}

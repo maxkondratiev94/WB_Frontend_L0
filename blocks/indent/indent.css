@@ -1,0 +1,12 @@
+.indent{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+@media (max-width: 670px) {
+    .indent{
+            margin-top: 70px;
+            margin-left: auto;
+        }
+}

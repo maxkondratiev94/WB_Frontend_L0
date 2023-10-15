@@ -1,0 +1,10 @@
+.receiver__surename {
+    /* flex: 0 1 338px; */
+    width: 100%;
+}
+@media (max-width: 670px) {
+    .receiver__surename{
+            flex: 0;
+            margin-bottom: 18px;
+        }
+}

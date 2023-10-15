@@ -1,0 +1,7 @@
+.receiver__email-err{
+    color: #F55123;
+    font-size: 12px;
+    line-height: 14px;
+    visibility: hidden;
+    opacity: 0; 
+}

@@ -1,0 +1,15 @@
+.total__top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+@media (max-width: 530px) {
+    .total__top{
+            font-size: 20px;
+            line-height: 28px;
+        }
+}

@@ -1,0 +1,8 @@
+.content-block__check{
+    position: relative;
+}
+@media (max-width: 670px) {
+    .content-block__check{
+            margin: 0;
+        }
+}

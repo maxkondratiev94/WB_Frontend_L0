@@ -1,0 +1,31 @@
+.checkbox__agreement{
+    cursor: pointer;
+}
+.checkbox__agreement:before {
+    content: "";
+    height: 11px;
+    width: 13px;
+    display: block;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+.checkbox__agreement::after {
+    content: "";
+    height: 11px;
+    width: 13px;
+    display: block;
+
+    background: url(../img/item__11.png) no-repeat;
+    background-size: 12px 10px;
+    opacity: 0;
+
+    position: absolute;
+    top: 5.5px;
+    left: 5.5px;
+    z-index: 2;
+    margin-top: -2px;
+}

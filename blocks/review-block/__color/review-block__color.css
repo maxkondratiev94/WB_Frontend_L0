@@ -1,0 +1,9 @@
+.review-block__color {
+    margin: 0px 16px 0px 0px;
+}
+@media (max-width: 670px) {
+    .review-block__color{
+            margin-top: -2px;
+            margin-left: -3px;
+        }
+}

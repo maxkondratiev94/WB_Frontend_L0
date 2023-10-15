@@ -1,0 +1,33 @@
+.checkbox__label{
+}
+.checkbox__label:before{
+    content: "";
+    height: 22px;
+    width: 22px;
+    display: block;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* transition: all 0.3s ease 0s; */
+}
+.checkbox__label::after{
+    content: "";
+    height: 22px;
+    width: 22px;
+    display: block;
+
+    background: url(../img/item__10.png) no-repeat;
+    background-size: 12px 10px;
+    opacity: 0;
+
+    position: absolute;
+    top: 5.5px;
+    left: 5.5px;
+    z-index: 2;
+
+    /* transition: all 0.3s ease 0s; */
+}

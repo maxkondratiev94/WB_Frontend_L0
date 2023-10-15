@@ -1,0 +1,8 @@
+.header__item{
+    display: none;
+}
+@media (max-width: 460px) {
+    .header__item{
+            display: flex;
+        }
+}

@@ -1,0 +1,19 @@
+.pay-buttom__courier {
+    background: #FFFFFF;
+    border: 2px solid rgba(203, 17, 171, 0.15);
+    border-radius: 20px;
+    padding: 9px 50px 11px;
+    width: 100%;
+    color: #000;
+}
+@media (max-width: 530px) {
+    .pay-buttom__courier{
+            padding: 11px 19px 13px;
+        }
+}
+@media (max-width: 530px) {
+    .pay-buttom__courier {
+            font-size: 12px;
+            padding: 11px 4px 13px;
+        }
+}

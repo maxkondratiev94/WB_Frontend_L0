@@ -1,0 +1,6 @@
+.review-block__size {}
+@media (max-width: 670px) {
+    .review-block__size{
+            display: none;
+        }
+}

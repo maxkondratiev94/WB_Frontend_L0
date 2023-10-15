@@ -1,0 +1,11 @@
+.counter-block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 100px;
+    height: 44px;
+    margin: -2px 0px 10px 0px;
+}

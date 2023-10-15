@@ -1,0 +1,14 @@
+.block__content {
+    margin: 17px 0px 0px 0px;
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+}
+.block__content::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 0px 0px 12px 0px;
+}

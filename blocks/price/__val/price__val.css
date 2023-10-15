@@ -1,0 +1,13 @@
+.price__val {
+    margin: 0px 0px 0px 2px;
+}
+@media (max-width: 670px) {
+    .price__val {
+            margin: 0 0 0 3px;
+        }
+}
+@media (max-width: 530px) {
+    .price__val{
+            font-size: 13px;
+        }
+}

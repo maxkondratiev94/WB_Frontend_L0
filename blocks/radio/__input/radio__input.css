@@ -1,0 +1,11 @@
+.radio__input {
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+}
+.radio__input:checked+.radio__label:before {
+    border: none;
+}
+.radio__input:checked+.radio__label:after {
+    opacity: 1;
+}

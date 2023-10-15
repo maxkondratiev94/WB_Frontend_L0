@@ -1,0 +1,28 @@
+.radio__label:before {
+    content: "";
+    height: 16px;
+    width: 16px;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #FFFFFF;
+    position: absolute;
+    top: -9px;
+    left: 0;
+    z-index: 1;
+}
+.radio__label::after {
+    content: "";
+    height: 16px;
+    width: 16px;
+    display: block;
+
+    background: url(../img/item__12.png) no-repeat;
+    background-size: 16px 16px;
+    opacity: 0;
+
+    position: absolute;
+    top: -9px;
+    left: 0;
+    z-index: 2;
+}

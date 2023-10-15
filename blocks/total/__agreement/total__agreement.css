@@ -1,0 +1,8 @@
+.total__agreement {
+    margin-left: -4px;
+}
+@media (max-width: 530px) {
+    .total__agreement{
+            margin-bottom: 18px;
+        }
+}

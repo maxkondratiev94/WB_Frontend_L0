@@ -1,0 +1,19 @@
+.catalog {
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+}
+@media (max-width: 700px) {
+    .catalog{
+            border: none;
+        }
+}
+@media (max-width: 460px) {
+    .catalog{
+            width: 22.5px;
+            height: 18.5px;
+        }
+}

@@ -1,0 +1,12 @@
+.total__delivery {
+    margin-top: 24px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 700px) {
+    .total__delivery {
+                display: none;
+            }
+}

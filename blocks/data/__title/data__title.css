@@ -1,0 +1,7 @@
+.data__title {}
+@media (max-width: 670px) {
+    .data__title{
+            margin-bottom: 12px;
+            margin-top: 6px;
+        }
+}

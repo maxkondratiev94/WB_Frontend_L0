@@ -1,0 +1,13 @@
+.block-red{
+    padding: 11px 24px 24px 24px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 0px 16px 0px;
+}
+@media (max-width: 670px) {
+    .block-red{
+            padding: 10px 16px 24px;
+        }
+}

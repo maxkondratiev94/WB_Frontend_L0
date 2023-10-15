@@ -1,0 +1,9 @@
+.review-block__storage {
+    color: #A0A0A4;
+    margin-bottom: 4px;
+}
+@media (max-width: 530px) {
+    .review-block__storage{
+            margin-left: -3px;
+        }
+}

@@ -1,0 +1,4 @@
+.price-text__top {
+    display: flex;
+    justify-content: space-between;
+}

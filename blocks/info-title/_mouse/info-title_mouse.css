@@ -1,0 +1,5 @@
+.info-title_mouse{
+    position: relative;
+    cursor: pointer;
+    text-decoration: dashed;
+}

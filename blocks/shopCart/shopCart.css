@@ -1,0 +1,10 @@
+.shopCart {
+    display: flex;
+    flex-direction: column;
+    
+}
+@media (max-width: 700px) {
+    .shopCart{
+            display: none;
+        }
+}

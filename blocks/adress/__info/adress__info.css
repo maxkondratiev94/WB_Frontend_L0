@@ -1,0 +1,10 @@
+.adress__info {
+    display: flex;
+    font-size: 13px;
+}
+@media (max-width: 670px) {
+    .adress__info{
+            font-size: 13px;
+            margin-top: 0px;
+        }
+}

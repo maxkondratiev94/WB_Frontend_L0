@@ -1,0 +1,11 @@
+.pay__promptly{
+    background: #F6F6FA;
+    border-radius: 8px;
+    padding: 8px 8px 12px;
+    margin-bottom: 24px;
+}
+@media (max-width: 670px) {
+    .pay__promptly{
+            margin-top: -55px;
+        }
+}

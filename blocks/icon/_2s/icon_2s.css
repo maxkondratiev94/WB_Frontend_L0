@@ -1,0 +1,21 @@
+.icon_2s{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.icon_2s:hover.red2 {
+    opacity: 1;
+}
+.icon_2s:hover {
+    opacity: 0;
+}
+@media (max-width: 670px) {
+    .icon_2s.ic1_margin {
+            margin-right: 5px;
+        }
+}
+@media (max-width: 670px) {
+    .icon_2s {
+            right: 0px;
+        }
+}

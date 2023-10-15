@@ -1,0 +1,19 @@
+.issue__info-img{
+    width: 20px;
+    height: 20px;
+}
+.issue__info-img{
+    display: flex;
+    align-items: center;
+}
+.issue__info-img img{
+    width: 20px;
+    height: 20px;
+}
+@media (max-width: 670px) {
+    .issue__info-img{
+            margin-top: -6px;
+            margin-left: 10px;
+            text-align: center;
+        }
+}

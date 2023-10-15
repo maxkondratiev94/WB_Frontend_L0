@@ -1,0 +1,21 @@
+.icon_1{
+    margin: 1px 37px 0px 0px;
+    position: absolute;
+    top: 0;
+    /* left: 50%; */
+}
+.icon_1:hover.red{
+    opacity: 1;
+}
+.icon_1:hover {
+    opacity: 0;
+}
+.icon_1 img{
+    width: 18px;
+    height: 16px;
+}
+@media (max-width: 670px) {
+    .icon_1{
+            margin-right: -4px;
+        }
+}

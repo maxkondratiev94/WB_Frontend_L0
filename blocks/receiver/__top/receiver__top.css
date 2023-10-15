@@ -1,0 +1,16 @@
+.receiver__top {
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A0A0A4;
+    margin-bottom: 12px;
+    margin-top: 22px;
+    max-width: 700px;
+}
+@media (max-width: 670px) {
+    .receiver__top{
+            flex-direction: column;
+            margin-bottom: 0;
+            margin-top: 8px;
+        }
+}

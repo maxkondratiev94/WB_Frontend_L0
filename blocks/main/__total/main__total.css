@@ -1,0 +1,6 @@
+.main__total {}
+@media (max-width: 670px) {
+    .main__total{
+            margin: -6px -23px 0;
+        }
+}

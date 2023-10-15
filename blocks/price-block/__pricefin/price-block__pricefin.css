@@ -1,0 +1,12 @@
+.price-block__pricefin {
+    display: flex;
+    text-align: end;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+@media (max-width: 670px) {
+    .price-block__pricefin{
+            margin-right: 5px;
+            font-size: 16px;
+        }
+}

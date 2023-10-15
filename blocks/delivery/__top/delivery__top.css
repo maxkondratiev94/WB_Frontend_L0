@@ -1,0 +1,12 @@
+.delivery__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0px 0px 16px 0px;
+}
+@media (max-width: 670px) {
+    .delivery__top{
+            margin-top: 16px;
+            margin-bottom: 8px;
+        }
+}

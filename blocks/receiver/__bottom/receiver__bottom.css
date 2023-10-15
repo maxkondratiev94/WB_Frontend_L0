@@ -1,0 +1,9 @@
+.receiver__bottom {
+    display: flex;
+    max-width: 700px;
+}
+@media (max-width: 670px) {
+    .receiver__bottom{
+            flex-direction: column;
+        }
+}

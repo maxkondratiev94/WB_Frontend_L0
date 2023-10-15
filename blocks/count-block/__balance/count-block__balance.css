@@ -1,0 +1,12 @@
+.count-block__balance {
+    font-size: 13px;
+    line-height: 16px;
+    color: #FF3B30;
+    margin: 0px 0px 8px 0px;
+}
+@media (max-width: 670px) {
+    .count-block__balance{
+            margin-right: 4px;
+            margin-bottom: 0;
+        }
+}

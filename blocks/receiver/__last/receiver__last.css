@@ -1,0 +1,15 @@
+.receiver__last{
+    /* flex: 0 1 217px; */
+    width: 100%;
+}
+@media (max-width: 670px) {
+    .receiver__last{
+            flex: 0;
+            margin-bottom: 18px;
+        }
+}
+@media (max-width: 670px) {
+    .receiver__last{
+            margin-bottom: 0;
+        }
+}

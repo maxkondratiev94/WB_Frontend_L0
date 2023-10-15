@@ -1,0 +1,10 @@
+.buttom_popup2{
+    max-width: 164px;
+    margin-top: 41px;
+    justify-content: center;
+}
+@media (max-width: 530px) {
+    .buttom_popup2 {
+            max-width: 100%;
+        }
+}

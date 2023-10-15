@@ -1,0 +1,9 @@
+.review-block__sel {
+    color: #A0A0A4;
+    display: flex;
+}
+@media (max-width: 670px) {
+    .review-block__sel{
+            display: none;
+        }
+}

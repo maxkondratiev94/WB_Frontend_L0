@@ -1,0 +1,10 @@
+.total-delivery__adress {
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 4px;
+}
+@media (max-width: 700px) {
+    .total-delivery__adress {
+                opacity: 0;
+            }
+}

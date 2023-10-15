@@ -1,0 +1,18 @@
+.checkbox__input{
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+}
+.checkbox__input:checked + .checkbox__label:before {
+    background-color: #CB11AB;
+    border: none;
+}
+.checkbox__input:checked+.checkbox__label:after {
+    opacity: 1;
+}
+.checkbox__input:checked+.checkbox__agreement:before {
+    border: none;
+}
+.checkbox__input:checked+.checkbox__agreement:after {
+    opacity: 1;
+}

@@ -1,0 +1,23 @@
+.content-block__img {
+    margin: 0px 16px 0px 34px;
+    position: relative;
+}
+.content-block__img.margin-none {
+    margin: 0px 16px 0px 0px;
+}
+@media (max-width: 670px) {
+    .content-block__img{
+            position: relative;
+        }
+}
+@media (max-width: 670px) {
+    .content-block__img{
+            margin: 0;
+        }
+}
+@media (max-width: 670px) {
+    .content-block__img img{
+            width: 80px;
+            height: 106px;
+        }
+}

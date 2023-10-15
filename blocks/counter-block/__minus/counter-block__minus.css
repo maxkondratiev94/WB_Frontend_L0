@@ -1,0 +1,48 @@
+.counter-block__minus.no_act_m{
+    flex: 0 1 30%;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.counter-block__minus.act_m{
+    flex: 0 1 30%;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    cursor: pointer;
+}
+.counter-block__minus.no_act_m-2 {
+    flex: 0 1 30%;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.counter-block__minus.act_m-2 {
+    flex: 0 1 30%;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    cursor: pointer;
+}
+.counter-block__minus.no-act-m3 {
+    flex: 0 1 30%;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.counter-block__minus.act-m3 {
+    flex: 0 1 30%;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.search__btn{
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+}
+.search__btn img{
+    width: 20px;
+    height: 20px;
+}

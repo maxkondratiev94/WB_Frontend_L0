@@ -1,0 +1,10 @@
+.title__item {
+    position: relative;
+    top: 10px;
+    flex: 0 0 16px;
+}
+@media (max-width: 530px) {
+    .title__item{
+            margin-right: 3px;
+        }
+}

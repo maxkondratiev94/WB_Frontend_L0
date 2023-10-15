@@ -1,0 +1,13 @@
+.shop__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    margin: 0px 0px 24.5px 0px;
+}
+@media (max-width: 670px) {
+    .shop__title{
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+}

@@ -1,0 +1,7 @@
+.delivery__block {
+}
+@media (max-width: 670px) {
+    .delivery__block{
+            margin: 0px -16px;
+        }
+}

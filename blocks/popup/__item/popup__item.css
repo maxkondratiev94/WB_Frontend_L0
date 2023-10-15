@@ -1,0 +1,7 @@
+.popup__item {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+}

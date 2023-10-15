@@ -1,0 +1,12 @@
+.content-block-3{
+    margin-top: -3px;
+}
+.content-block-3{
+    display: flex;
+
+}
+@media (max-width: 670px) {
+    .content-block-3 {
+            flex-direction: column;
+        }
+}

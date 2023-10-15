@@ -1,0 +1,17 @@
+.content-block__count {}
+.content-block__count.indent {
+    /* flex: 0 1 19%; */
+}
+@media (max-width: 670px) {
+    .content-block__count{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            margin-top:6px;
+        }
+}
+@media (max-width: 670px) {
+    .content-block__count.indent {
+            /* flex: none; */
+        }
+}

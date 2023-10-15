@@ -1,0 +1,6 @@
+.main__shop {}
+@media (max-width: 670px) {
+    .main__shop{
+            margin-top: 10px;
+        }
+}

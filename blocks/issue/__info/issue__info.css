@@ -1,0 +1,10 @@
+.issue__info {
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 670px) {
+    .issue__info{
+            font-size: 13px;
+            line-height: 16px;
+        }
+}

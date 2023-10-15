@@ -1,0 +1,9 @@
+@media (max-width: 530px) {
+    .pay__promptly-margin{
+            /* margin: 0; */
+            margin-top: -45px;
+            margin-left: -2px;
+            background: #F0ECF4;
+            border-radius: 8px;
+        }
+}
