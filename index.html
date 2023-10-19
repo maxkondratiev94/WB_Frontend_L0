@@ -620,7 +620,183 @@
       </main>
    </div>
 
-   
+   <div id="popup" class="popup">
+      <a href="#fix" class="popup__area"></a>
+      <div class="popup__body">
+         <div class="popup__content">
+            <a href="#fix" class="popup__close">
+               <img src="images/x.png" alt="">
+            </a>
+            <div class="popup__title">Способ оплаты</div>
+            <div class="popup__text">
+               <div class="popup__radio">
+                  <input checked class="radio__input radio__inputon" id="radio" type="radio" name="radio_pay">
+                  <label class="radio__label" for="radio"></label>
+               </div> 
+               <div class="popup__img">
+                  <img src="images/mir2.png" alt="">
+               </div>
+               <div class="popup__number">1234 56•• •••• 1234</div>
+            </div>
+            <div class="popup__text">
+               <div class="popup__radio">
+                  <input class="radio__input" id="radio2" type="radio" name="radio_pay">
+                  <label class="radio__label" for="radio2"></label>
+               </div>
+               <div class="popup__img">
+                  <img src="images/cart__01.png" alt="">
+               </div>
+               <div class="popup__number">1234 56•• •••• 1234</div>
+            </div>
+            <div class="popup__text">
+               <div class="popup__radio">
+                  <input class="radio__input" id="radio3" type="radio" name="radio_pay">
+                  <label class="radio__label" for="radio3"></label>
+               </div>
+               <div class="popup__img">
+                  <img src="images/cart__02.png" alt="">
+               </div>
+               <div class="popup__number">1234 56•• •••• 1234</div>
+            </div>
+            <div class="popup__text">
+               <div class="popup__radio">
+                  <input class="radio__input" id="radio4" type="radio" name="radio_pay">
+                  <label class="radio__label" for="radio4"></label>
+               </div>
+               <div class="popup__img">
+                  <img src="images/cart__03.png" alt="">
+               </div>
+               <div class="popup__number">1234 56•• •••• 1234</div>
+            </div>
+            <div class="total__buttom buttom_popup">
+               <a href="#fix" onclick="radioOnPay()" class="total__link">Выбрать</a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div id="popup__pay" class="popup__pay">
+      <a href="#fix" class="popup__area"></a>
+      <div class="popup__body">
+         <div class="popup__pay-content">
+            <a href="#fix" class="popup__close">
+               <img src="images/x.png" alt="">
+            </a>
+            <div class="popup__title">Способ доставки</div>
+            <div class="popup__pay-buttom">
+               <a href="#popup__res" class="pay-buttom__delivery">В пункт выдачи</a>
+               <a href="#popup__pay" class="pay-buttom__courier pay-buttom">Курьером</a>
+            </div>
+            <div class="popup__pay-text">Мои адреса</div>
+            <div class="popup__text">
+               <div class="popup__radio">
+                  <input checked class="radio__input" id="radio5" type="radio" name="radio">
+                  <label class="radio__label" for="radio5"></label>
+               </div>
+               <div class="popup__number popup-pay__text">Бишкек, улица Табышалиева, 57</div>
+               <div class="popup__item">
+                  <a class="icon_3 pop" href=""><img src="images/item__07_gray.png" alt=""></a>
+                  <a class="icon_3 red pop" href=""><img src="images/item__07_red.png" alt=""></a>
+               </div>
+            </div>
+            <div class="popup__text">
+               <div class="popup__radio">
+                  <input class="radio__input" id="radio6" type="radio" name="radio">
+                  <label class="radio__label" for="radio6"></label>
+               </div>
+               <div class="popup__number popup-pay__text">Бишкек, улица Жукеева-Пудовкина, 77/1</div>
+               <div class="popup__item">
+                  <a class="icon_3 pop" href=""><img src="images/item__07_gray.png" alt=""></a>
+                  <a class="icon_3 red pop" href=""><img src="images/item__07_red.png" alt=""></a>
+               </div>
+            </div>
+            <div class="popup__text">
+               <div class="popup__radio">
+                  <input class="radio__input" id="radio7" type="radio" name="radio">
+                  <label class="radio__label" for="radio7"></label>
+               </div>
+               <div class="popup__number popup-pay__text">Бишкек, микрорайон Джал, улица Ахунбаева Исы, 67/1</div>
+               <div class="popup__item">
+                  <a class="icon_3 pop" href=""><img src="images/item__07_gray.png" alt=""></a>
+                  <a class="icon_3 red pop" href=""><img src="images/item__07_red.png" alt=""></a>
+               </div>
+            </div>
+            <div class="total__buttom buttom_popup2 ">
+               <a href="#fix" onclick="radioOnDel()" class="total__link">Выбрать</a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div id="popup__res" class="popup__res">
+      <a href="#fix" class="popup__area"></a>
+      <div class="popup__body">
+         <div class="popup__pay-content">
+            <a href="#fix" class="popup__close">
+               <img src="images/x.png" alt="">
+            </a>
+            <div class="popup__title">Способ доставки</div>
+            <div class="popup__pay-buttom">
+               <a href="#popup__res" class="pay-buttom__delivery pay-buttom">В пункт выдачи</a>
+               <a href="#popup__pay" class="pay-buttom__courier">Курьером</a>
+            </div>
+            <div class="popup__pay-text">Мои адреса</div>
+            <div class="popup__text popup__text-nomargin">
+               <div class="popup__radio">
+                  <input checked class="radio__input" id="radio8" type="radio" name="radio">
+                  <label class="radio__label" for="radio8"></label>
+               </div>
+               <div class="popup__number popup-pay__text">г. Бишкек, микрорайон Джал, улица Ахунбаева Исы, д. 67/1</div>
+               
+               <div class="popup__item">
+                  <a class="icon_3 pop" href=""><img src="images/item__07_gray.png" alt=""></a>
+                  <a class="icon_3 red pop" href=""><img src="images/item__07_red.png" alt=""></a>
+               </div>
+            </div>
+            <div class="popup__text-icon">
+                  <dib class="ingo__img"><img src="images/star.png" alt="img"></dib>
+                  <div class="info__rank fc13">4.99</div>
+                  <div class="info__time gray">Пункт выдачи</div>
+            </div>
+            <div class="popup__text popup__text-nomargin">
+               <div class="popup__radio">
+                  <input class="radio__input" id="radio9" type="radio" name="radio">
+                  <label class="radio__label" for="radio9"></label>
+               </div>
+               <div class="popup__number popup-pay__text">г. Бишкек, микрорайон Джал, улица Ахунбаева Исы, д. 67/1</div>
+               <div class="popup__item">
+                  <a class="icon_3 pop" href=""><img src="images/item__07_gray.png" alt=""></a>
+                  <a class="icon_3 red pop" href=""><img src="images/item__07_red.png" alt=""></a>
+               </div>
+            </div>
+            <div class="popup__text-icon">
+               <dib class="ingo__img"><img src="images/star.png" alt="img"></dib>
+               <div class="info__rank fc13">4.99</div>
+               <div class="info__time gray">Пункт выдачи</div>
+            </div>
+            <div class="popup__text popup__text-nomargin">
+               <div class="popup__radio">
+                  <input class="radio__input" id="radio10" type="radio" name="radio">
+                  <label class="radio__label" for="radio10"></label>
+               </div>
+               <div class="popup__number popup-pay__text">г. Бишкек, улица Табышалиева, д. 57</div>
+               <div class="popup__item">
+                  <a class="icon_3 pop" href=""><img src="images/item__07_gray.png" alt=""></a>
+                  <a class="icon_3 red pop" href=""><img src="images/item__07_red.png" alt=""></a>
+               </div>
+            </div>
+            <div class="popup__text-icon">
+               <dib class="ingo__img"><img src="images/star.png" alt="img"></dib>
+               <div class="info__rank fc13">4.99</div>
+               <div class="info__time gray">Пункт выдачи</div>
+            </div>
+            <div class="total__buttom buttom_popup2 ">
+               <a href="#fix" onclick="radioOnDel()" class="total__link">Выбрать</a>
+            </div>
+         </div>
+      </div>
+   </div>
+
    <script src="./scripts/index.js"></script>
 </body>
 
